@@ -1,0 +1,21 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-faq.html 
+keywords: volume caching faq, caching frequently asked questions 
+summary: Cette FAQ peut vous aider si vous cherchez simplement une réponse rapide à une question. 
+---
+= Questions fréquemment posées sur la mise en cache des volumes
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Cette FAQ peut vous aider si vous cherchez simplement une réponse rapide à une question.
+
+*Quelle est l'URL de mise en cache du volume ?*  Pour l'URL, dans un navigateur, saisissez : https://console.netapp.com/["https://console.netapp.com/"^] pour accéder à la console BlueXP .
+
+*Avez-vous besoin d'une licence pour utiliser la mise en cache de volume ?* Un fichier de licence NetApp (NLF) n'est pas requis.
+
+*Comment activer la mise en cache du volume ?*  La mise en cache des volumes ne nécessite aucune activation.  L'option de mise en cache du volume apparaît automatiquement dans la navigation de gauche de la console NetApp .

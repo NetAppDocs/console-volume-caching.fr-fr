@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-quick-start.html 
+keywords: how to get started with volume caching, volume caching quick start 
+summary: Commencez à utiliser la mise en cache de volumes en quelques étapes. 
+---
+= Démarrage rapide pour la mise en cache des volumes
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Voici un aperçu des étapes nécessaires pour démarrer avec la mise en cache de volumes. Les liens à l’intérieur de chaque étape vous mènent à une page qui fournit plus de détails.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Un"]Réviser les prérequis
+[role="quick-margin-para"]
+link:../get-started/cache-prerequisites.html["Assurez-vous que votre environnement répond à ces exigences"] .
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"]Configurer la mise en cache du volume
+[role="quick-margin-para"]
+link:../get-started/cache-setup.html["Configurer la mise en cache de volume"] .
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Trois"]Quelle est la prochaine étape ?
+[role="quick-margin-para"]
+Voici ce que vous pourriez faire ensuite.
+
+[role="quick-margin-list"]
+* link:../use/cache-create.html["Créer un cache"] .
+* link:../use/cache-use-overview.html["Gérer un cache, modifier un cache, redimensionner un cache ou supprimer un cache"] .
+* link:../use/monitor-jobs.html["Surveiller les opérations de mise en cache des volumes"] .
+

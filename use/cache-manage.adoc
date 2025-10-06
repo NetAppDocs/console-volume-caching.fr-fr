@@ -1,0 +1,112 @@
+---
+sidebar: sidebar 
+permalink: use/cache-manage.html 
+keywords: volume caching, Volume caching 
+summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés.  Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
+---
+= Gérer un cache
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Vous pouvez modifier un cache, modifier la politique d'exportation, redimensionner un cache et supprimer un cache.
+
+Avec la mise en cache des volumes, vous pouvez atteindre ces objectifs :
+
+* Afficher les détails du cache.
+* Affecter une politique d’exportation différente à un cache.
+* Modifiez la mise en cache d'un volume et changez sa taille, etc. L'édition aura la possibilité d'afficher et de modifier d'autres propriétés, et davantage de propriétés seront ajoutées dans l'édition dans les prochaines versions.
+* Redimensionner un cache existant en fonction d'un pourcentage de la taille du volume d'origine.
+* Supprimer un cache.
+
+
+
+
+== Afficher les détails du cache
+
+Pour chaque mise en cache, vous pouvez voir le volume d'origine, l'environnement de travail, le volume de cache, etc.
+
+.Étapes
+. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
++
+Vous pouvez afficher la liste des volumes de cache créés sur le système de destination.  La liste des caches affiche les détails du cache.
+
+. Pour filtrer la liste, sélectionnez l'option *Filtrer par +*.
+. Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
+. Sélectionnez *Afficher et modifier les détails*.
+. Passez en revue les détails.
+
+
+
+
+== Modifier un cache
+
+Vous pouvez modifier le nom, la taille du volume et la politique d'exportation d'un cache.
+
+.Étapes
+. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
+. Sélectionnez *Afficher et modifier les détails*.
+. Dans l’onglet Configuration de base, vous pouvez éventuellement modifier le nom du cache et la taille du volume du cache.
+. Vous pouvez également développer l'onglet Accès au cache et modifier ces valeurs :
++
+.. Le chemin de montage.
+.. Une politique d’exportation différente de celle existante.
+
+
+. Pour modifier les détails du partage SMB/CIFS ou les règles de stratégie d'exportation, cliquez sur l'option permettant d'accéder à NetApp System Manager.
+. Sélectionnez *Enregistrer*.
+
+
+
+
+== Attribuer une politique d'exportation de cache différente
+
+Vous pouvez attribuer une politique d’exportation différente à un cache.
+
+Les règles de politique d’exportation source doivent être appliquées au cluster cible.
+
+
+TIP: Vous pouvez attribuer une politique d’exportation existante à un cache.  Vous ne pouvez pas modifier les règles de la politique d’exportation.  Si vous devez modifier les politiques d’exportation, vous pouvez utiliser NetApp System Manager.
+
+.Étapes
+. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
+. Sélectionnez *Modifier la politique d'exportation*.
+. Sélectionnez la politique d’exportation que vous souhaitez attribuer au cache.
+. Sélectionnez *Enregistrer*.
+
+
+
+
+== Redimensionner un cache
+
+Vous pouvez modifier la taille du volume de cache en fonction d'un pourcentage du volume source.
+
+.Étapes
+. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
+. Sélectionnez *Redimensionner*.
+. Entrez un nouveau pourcentage de la taille du volume d’origine.
++
+Le volume du cache sera redimensionné selon le nouveau pourcentage.
+
+. Sélectionnez *Enregistrer*.
+
+
+
+
+== Supprimer un cache
+
+Si vous n'avez plus besoin du cache, vous pouvez le supprimer.  Cela supprime la relation de mise en cache du volume et supprime le cache du volume cible.
+
+.Étapes
+. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
+. Sélectionnez *Supprimer*.
+. Cochez la case.
+. Sélectionnez *Supprimer*.
+

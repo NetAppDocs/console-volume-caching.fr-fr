@@ -1,0 +1,41 @@
+---
+indexpage:
+  lead: La mise en cache de volume fournit un volume persistant et inscriptible dans
+    un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour
+    accélérer l’accès aux données ou pour décharger le trafic des volumes fortement
+    consultés.  Les volumes de cache sont idéaux pour les charges de travail à lecture
+    intensive, en particulier lorsque les clients doivent accéder aux mêmes données
+    de manière répétée.
+  tiles:
+  - title: Commencer
+    links:
+    - title: En savoir plus sur la mise en cache des volumes
+      url: "/get-started/cache-intro.html"
+    - title: Quoi de neuf dans la mise en cache des volumes
+      url: "/release-notes/cache-whats-new.html"
+    - title: Démarrage rapide
+      url: "/get-started/cache-quick-start.html"
+    - title: Prérequis
+      url: "/get-started/cache-prerequisites.html"
+    - title: Accéder à l'option de mise en cache du volume
+      url: "/get-started/cache-login.html"
+    - title: FAQ
+      url: "/get-started/cache-faq.html"
+  - title: Utiliser la mise en cache du volume
+    links:
+    - title: Présentation de l'utilisation de la mise en cache des volumes
+      url: "/use/cache-use-overview.html"
+    - title: Créer un cache
+      url: "/use/cache-create.html"
+    - title: Gérer un cache
+      url: "/use/cache-manage.html"
+    - title: Surveiller les tâches de mise en cache des volumes
+      url: "/use/monitor-jobs.html"
+  - title: Blogs et communauté
+    links:
+    - title: Console NetApp
+      url: https://www.netapp.com/console
+    - title: Services de données NetApp
+      url: https://www.netapp.com/data-services/
+    - title: Communauté NetApp
+      url: https://community.netapp.com/

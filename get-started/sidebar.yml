@@ -1,0 +1,16 @@
+---
+section: get-started
+title: Commencer
+entries:
+- title: En savoir plus sur la mise en cache des volumes
+  url: "/get-started/cache-intro.html"
+- title: Prérequis
+  url: "/get-started/cache-prerequisites.html"
+- title: Démarrage rapide
+  url: "/get-started/cache-quick-start.html"
+- title: Configurer la mise en cache du volume
+  url: "/get-started/cache-setup.html"
+- title: Accéder à l'option de mise en cache du volume
+  url: "/get-started/cache-login.html"
+- title: FAQ
+  url: "/get-started/cache-faq.html"

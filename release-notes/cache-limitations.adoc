@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: release-notes/cache-limitations.html 
+keywords: volume caching, bluexp 
+summary: 'Les limitations connues identifient les plates-formes, les appareils ou les fonctions qui ne sont pas pris en charge par cette version du service ou qui n"interagissent pas correctement avec elle.' 
+---
+= Limitations connues de la mise en cache des volumes
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Les limitations connues identifient les plates-formes, les appareils ou les fonctions qui ne sont pas pris en charge par cette version du service ou qui n'interagissent pas correctement avec elle.
+
+
+
+== Limitation de la copie des règles de politique d'exportation du cache
+
+Les règles de politique d’exportation de cache ne sont pas copiées sur le volume de cache dans les situations suivantes :
+
+* Lorsque le système du volume source est Amazon FSx for NetApp ONTAP ou Cloud Volumes ONTAP et que le volume de cache est ONTAP 9.10.1 ou une version antérieure.
+* Lorsque le système du volume source est une version d' ONTAP et que le volume de cache est ONTAP 9.10.1 ou une version antérieure.
+
+
+Solution de contournement : vous devez créer manuellement les règles pour le volume de cache.
+
+
+
+== La création du cache échoue pour les machines virtuelles de stockage portant le même nom
+
+Si les clusters source et de destination utilisent des machines virtuelles de stockage portant le même nom, le cache n'est pas créé.
+
+Solution de contournement : utilisez des noms différents pour les machines virtuelles de stockage source et de destination.
+
+
+
+== Retard dans l'affichage des politiques d'exportation nouvelles ou récemment modifiées
+
+Lors de la création d'un cache, il se peut que vous ne puissiez pas voir une politique d'exportation récemment créée ou modifiée dans la liste.
+
+Solution de contournement : réessayez dans quelques minutes.
+
+
+
+== La création du cache échoue lorsque la destination a uniquement le protocole CIFS activé
+
+La création du cache échoue si le cluster source ou de destination dispose ONTAP 9.10.1 ou d'une version antérieure et que seul le protocole CIFS est activé sur le cluster de destination.
+
+Solution de contournement : utilisez un cluster de destination exécutant ONTAP 9.11.1 ou une version ultérieure, ou avec les protocoles CIFS et NFS configurés.

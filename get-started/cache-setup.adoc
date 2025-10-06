@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: get-started/cache-setup.html 
+keywords: bluexp, volume caching, 
+summary: Pour utiliser la mise en cache de volume, effectuez quelques étapes pour la configurer. 
+---
+= Configurer la mise en cache du volume
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Pour utiliser la mise en cache de volume, effectuez quelques étapes pour la configurer.
+
+* Revoirlink:../get-started/cache-prerequisites.html["prérequis"] pour garantir que votre environnement est prêt.
+* Créer un agent de console.
+* Créez des systèmes capables de prendre en charge la mise en cache des volumes.
+
+
+
+
+== Créer un agent de console dans la console NetApp
+
+L’étape suivante consiste à créer un agent de console dans la console NetApp .
+
+Pour créer un agent de console avant d’utiliser la mise en cache de volume, reportez-vous à la documentation de la console NetApp qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Comment créer un agent de console"^] .
+
+
+
+== Créer des systèmes
+
+Si vous ne l’avez pas déjà fait, vous devez créer les systèmes pour la source et la cible.
+
+* https://docs.netapp.com/us-en/cloud-manager-fsx-ontap/start/task-getting-started-fsx.html["Créer un système Amazon FSx pour ONTAP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["Lancer Cloud Volumes ONTAP dans AWS"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["Lancer Cloud Volumes ONTAP dans Azure"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["Lancer Cloud Volumes ONTAP dans GCP"^]
+* https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-adding-systems.html["Ajouter des systèmes Cloud Volumes ONTAP existants"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["Découvrez les clusters ONTAP"^]
+

@@ -1,0 +1,22 @@
+---
+settings:
+  name: Volume caching
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: fr-fr,us-en,de-de,es-es,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Documentation sur la mise en cache des volumes
+    url: "/index.html"
+  - section: release-notes
+  - section: get-started
+  - section: use
+  - section: support
+  - title: Mentions légales
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family
