@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/cache-create.html 
 keywords: volume caching, Volume caching 
-summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités.  Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
+summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
 ---
 = Créer un cache à l'aide de la mise en cache de volume
 :hardbreaks:
@@ -12,7 +12,7 @@ summary: La mise en cache de volume fournit un volume persistant et inscriptible
 
 
 [role="lead"]
-La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités.  Les volumes mis en cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.  Vous pouvez créer une mise en cache de volume entre Amazon FSx for ONTAP, Cloud Volumes ONTAP et ONTAP sur site avec un ou plusieurs volumes sources du système source comme source de cache.  Vous choisissez ensuite la machine virtuelle de stockage pour les volumes de cache.
+La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités.  Les volumes mis en cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.  Vous pouvez créer une mise en cache de volume entre Amazon FSx for ONTAP, Cloud Volumes ONTAP et ONTAP sur site avec un ou plusieurs volumes sources du système source comme source de cache.  Vous choisissez ensuite la machine virtuelle de stockage pour les volumes de cache.
 
 Le volume mis en cache peut se trouver sur le même cluster ou sur un cluster différent de celui du volume source.  Les volumes que vous sélectionnez pour la mise en cache doivent appartenir à la même machine virtuelle de stockage et les machines virtuelles de stockage doivent utiliser les mêmes protocoles.
 
@@ -30,14 +30,14 @@ Le nom du volume mis en cache utilise un suffixe de `pass:macros[_cache]` ajout�
 
 == Étapes à suivre pour accéder à la page d'accueil de la mise en cache des volumes
 
-. Connectez-vous à la console NetApp .
+. Connectez-vous à la NetApp Console.
 . Sélectionnez *Mobilité* > *Mise en cache du volume* dans la navigation de gauche.
 +
 Vous atterrirez sur la page du tableau de bord de mise en cache des volumes.  Lorsque vous démarrez pour la première fois avec l’option de mise en cache du volume, vous devez ajouter les informations de cache.  Plus tard, le tableau de bord apparaît à la place et affiche des données sur les caches.
 
 +
 
-NOTE: Si vous n'avez pas encore configuré d'agent de console NetApp , l'option *Ajouter un agent de console* apparaît à la place de *Ajouter un cache*.  Dans ce cas, vous devez d’abord configurer l’agent de console.  Reportez-vous à la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Démarrage rapide de la console NetApp"^] .
+NOTE: Si vous n'avez pas encore configuré d'agent de NetApp Console , l'option *Ajouter un agent de console* apparaît à la place de *Ajouter un cache*.  Dans ce cas, vous devez d’abord configurer l’agent de console. Reportez-vous à la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Démarrage rapide de la NetApp Console"^] .
 
 +
 image:landing-page.png["la page de destination pour la mise en cache des volumes"]
@@ -67,14 +67,14 @@ Le suffixe de `pass:macros[_cache]` est ajouté au nom au format : `<user-speci
 +
 Le nouveau cache apparaît dans la liste de mise en cache.  Le nom du volume de cache s'affichera `pass:macros[_cache]` comme suffixe au nom du volume source.
 
-. Pour voir la progression de l'opération, dans le menu de la console NetApp , sélectionnez *Administration* > *Audit*.
+. Pour voir la progression de l'opération, dans le menu de la NetApp Console , sélectionnez *Administration* > *Audit*.
 
 
 
 
-== Étapes à suivre depuis la page Systèmes de la console NetApp
+== Étapes à suivre depuis la page Systèmes de la NetApp Console
 
-. À partir de la page Systèmes de console NetApp , sélectionnez l’environnement de travail.
+. À partir de la page Systèmes de NetApp Console , sélectionnez l’environnement de travail.
 . Sélectionnez le système source et faites-le glisser vers la destination.image:drag-n-drop.png["fonctionnalité glisser-déposer pour créer un cache"]
 . Sélectionnez *Mise en cache du volume*.
 +
@@ -108,5 +108,5 @@ Le suffixe de `pass:macros[_cache]` est ajouté au nom au format : `<user-speci
 +
 Le nouveau cache apparaît dans la liste de mise en cache.  Le nom du volume de cache s'affichera `pass:macros[_cache]` comme suffixe au nom du volume source.
 
-. Pour voir la progression de l'opération, dans le menu de la console NetApp , sélectionnez *Administration* > *Audit*.
+. Pour voir la progression de l'opération, dans le menu de la NetApp Console , sélectionnez *Administration* > *Audit*.
 

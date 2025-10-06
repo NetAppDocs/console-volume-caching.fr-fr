@@ -18,4 +18,4 @@ Cette FAQ peut vous aider si vous cherchez simplement une réponse rapide à une
 
 *Avez-vous besoin d'une licence pour utiliser la mise en cache de volume ?* Un fichier de licence NetApp (NLF) n'est pas requis.
 
-*Comment activer la mise en cache du volume ?*  La mise en cache des volumes ne nécessite aucune activation.  L'option de mise en cache du volume apparaît automatiquement dans la navigation de gauche de la console NetApp .
+*Comment activer la mise en cache du volume ?*  La mise en cache des volumes ne nécessite aucune activation.  L'option de mise en cache du volume apparaît automatiquement dans la navigation de gauche de la NetApp Console .

@@ -1,11 +1,11 @@
 ---
 indexpage:
   lead: La mise en cache de volume fournit un volume persistant et inscriptible dans
-    un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour
-    accélérer l’accès aux données ou pour décharger le trafic des volumes fortement
-    consultés.  Les volumes de cache sont idéaux pour les charges de travail à lecture
-    intensive, en particulier lorsque les clients doivent accéder aux mêmes données
-    de manière répétée.
+    un emplacement distant. Vous pouvez utiliser la mise en cache de volume pour accélérer
+    l’accès aux données ou pour décharger le trafic des volumes fortement consultés.
+    Les volumes de cache sont idéaux pour les charges de travail à lecture intensive,
+    en particulier lorsque les clients doivent accéder aux mêmes données de manière
+    répétée.
   tiles:
   - title: Commencer
     links:
@@ -33,9 +33,9 @@ indexpage:
       url: "/use/monitor-jobs.html"
   - title: Blogs et communauté
     links:
-    - title: Console NetApp
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: Services de données NetApp
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: Communauté NetApp
       url: https://community.netapp.com/

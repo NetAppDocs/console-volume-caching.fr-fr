@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/cache-use-overview.html 
 keywords: volume caching, volume caching 
-summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés.  Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
+summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
 ---
 = Présentation de l'utilisation de la mise en cache des volumes
 :hardbreaks:
@@ -18,5 +18,5 @@ En utilisant la mise en cache de volume, vous pouvez atteindre les objectifs sui
 * link:../use/cache-manage.html#view-cache-details["Afficher les détails du cache"] .
 * link:../use/cache-manage.html#assign-a-different-cache-export-policy["Modifier la politique d'exportation et redimensionner un cache"] .
 * link:../use/cache-manage.html#delete-a-volume-cache["Supprimer un cache"] .
-* link:../use/monitor-jobs.html["Surveiller les opérations de mise en cache des volumes"]sur la page Audit de la console NetApp .
+* link:../use/monitor-jobs.html["Surveiller les opérations de mise en cache des volumes"]sur la page Audit de la NetApp Console .
 

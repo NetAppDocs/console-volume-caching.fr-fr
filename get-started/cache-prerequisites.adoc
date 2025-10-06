@@ -22,12 +22,12 @@ Pour utiliser la mise en cache de volume, vous devez vous assurer que votre envi
 ** LIF intercluster sur les clusters
 
 
-* Dans la console NetApp :
+* Dans la NetApp Console:
 +
-** L'agent de console doit être configuré dans la console NetApp .  Tous les clusters source et cible doivent se trouver sur le même agent de console. Se référer à la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Démarrage rapide de BlueXP"^] et https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["En savoir plus sur les agents de console"^] .
+** L'agent de console doit être configuré dans la NetApp Console.  Tous les clusters source et cible doivent se trouver sur le même agent de console. Se référer à la https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-quick-start-standard-mode.html["Démarrage rapide de BlueXP"^] et https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["En savoir plus sur les agents de console"^] .
 ** L'environnement de travail doit être aménagé.
 ** Les clusters doivent être ajoutés dans l'environnement de travail cible et dans un état ON ou dégradé.
-** Configuration requise pour la console NetApp standard. Se référer à https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Configuration requise pour la console NetApp"^] .
+** Configuration requise pour la NetApp Console standard. Se référer à https://docs.netapp.com/us-en/cloud-manager-setup-admin/reference-checklist-cm.html["Configuration requise NetApp Console"^] .
 
 
 

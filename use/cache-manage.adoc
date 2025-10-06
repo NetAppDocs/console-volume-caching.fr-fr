@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: use/cache-manage.html 
 keywords: volume caching, Volume caching 
-summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés.  Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
+summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
 ---
 = Gérer un cache
 :hardbreaks:
@@ -30,7 +30,7 @@ Avec la mise en cache des volumes, vous pouvez atteindre ces objectifs :
 Pour chaque mise en cache, vous pouvez voir le volume d'origine, l'environnement de travail, le volume de cache, etc.
 
 .Étapes
-. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Dans la navigation de gauche de la NetApp Console , sélectionnez *Mobilité* > *Mise en cache des volumes*.
 +
 Vous pouvez afficher la liste des volumes de cache créés sur le système de destination.  La liste des caches affiche les détails du cache.
 
@@ -47,7 +47,7 @@ Vous pouvez afficher la liste des volumes de cache créés sur le système de de
 Vous pouvez modifier le nom, la taille du volume et la politique d'exportation d'un cache.
 
 .Étapes
-. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Dans la navigation de gauche de la NetApp Console , sélectionnez *Mobilité* > *Mise en cache des volumes*.
 . Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
 . Sélectionnez *Afficher et modifier les détails*.
 . Dans l’onglet Configuration de base, vous pouvez éventuellement modifier le nom du cache et la taille du volume du cache.
@@ -73,7 +73,7 @@ Les règles de politique d’exportation source doivent être appliquées au clu
 TIP: Vous pouvez attribuer une politique d’exportation existante à un cache.  Vous ne pouvez pas modifier les règles de la politique d’exportation.  Si vous devez modifier les politiques d’exportation, vous pouvez utiliser NetApp System Manager.
 
 .Étapes
-. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Dans la navigation de gauche de la NetApp Console , sélectionnez *Mobilité* > *Mise en cache des volumes*.
 . Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
 . Sélectionnez *Modifier la politique d'exportation*.
 . Sélectionnez la politique d’exportation que vous souhaitez attribuer au cache.
@@ -87,7 +87,7 @@ TIP: Vous pouvez attribuer une politique d’exportation existante à un cache. 
 Vous pouvez modifier la taille du volume de cache en fonction d'un pourcentage du volume source.
 
 .Étapes
-. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Dans la navigation de gauche de la NetApp Console , sélectionnez *Mobilité* > *Mise en cache des volumes*.
 . Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
 . Sélectionnez *Redimensionner*.
 . Entrez un nouveau pourcentage de la taille du volume d’origine.
@@ -104,7 +104,7 @@ Le volume du cache sera redimensionné selon le nouveau pourcentage.
 Si vous n'avez plus besoin du cache, vous pouvez le supprimer.  Cela supprime la relation de mise en cache du volume et supprime le cache du volume cible.
 
 .Étapes
-. Dans la navigation de gauche de la console NetApp , sélectionnez *Mobilité* > *Mise en cache des volumes*.
+. Dans la navigation de gauche de la NetApp Console , sélectionnez *Mobilité* > *Mise en cache des volumes*.
 . Sélectionnez une ligne et sélectionnez l’option *Actions…* sur la droite.
 . Sélectionnez *Supprimer*.
 . Cochez la case.

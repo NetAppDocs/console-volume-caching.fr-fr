@@ -21,11 +21,11 @@ Pour utiliser la mise en cache de volume, effectuez quelques étapes pour la con
 
 
 
-== Créer un agent de console dans la console NetApp
+== Créer un agent de console dans la NetApp Console
 
-L’étape suivante consiste à créer un agent de console dans la console NetApp .
+L’étape suivante consiste à créer un agent de console dans la NetApp Console.
 
-Pour créer un agent de console avant d’utiliser la mise en cache de volume, reportez-vous à la documentation de la console NetApp qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Comment créer un agent de console"^] .
+Pour créer un agent de console avant d’utiliser la mise en cache de volume, reportez-vous à la documentation de la NetApp Console qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Comment créer un agent de console"^] .
 
 
 
