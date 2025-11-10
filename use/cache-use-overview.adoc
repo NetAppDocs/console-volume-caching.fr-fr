@@ -17,6 +17,5 @@ En utilisant la mise en cache de volume, vous pouvez atteindre les objectifs sui
 * link:../use/cache-create.html["Créer un cache"] .
 * link:../use/cache-manage.html#view-cache-details["Afficher les détails du cache"] .
 * link:../use/cache-manage.html#assign-a-different-cache-export-policy["Modifier la politique d'exportation et redimensionner un cache"] .
-* link:../use/cache-manage.html#delete-a-volume-cache["Supprimer un cache"] .
 * link:../use/monitor-jobs.html["Surveiller les opérations de mise en cache des volumes"]sur la page Audit de la NetApp Console .
 

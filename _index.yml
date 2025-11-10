@@ -1,5 +1,6 @@
 ---
 indexpage:
+  title: Mise en cache de volumes NetApp
   lead: La mise en cache de volume fournit un volume persistant et inscriptible dans
     un emplacement distant. Vous pouvez utiliser la mise en cache de volume pour accélérer
     l’accès aux données ou pour décharger le trafic des volumes fortement consultés.
