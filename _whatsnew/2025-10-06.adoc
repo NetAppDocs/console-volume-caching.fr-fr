@@ -1,12 +1,12 @@
-= La BlueXP volume caching est désormais une mise en cache du volume
+= La mise en cache de volume BlueXP est désormais une mise en cache de volume.
 :allow-uri-read: 
 
 
 
 
-=== La BlueXP volume caching est désormais une mise en cache du volume
+=== La mise en cache de volume BlueXP est désormais une mise en cache de volume.
 
-La BlueXP volume caching a été renommée en mise en cache de volume.
+La mise en cache de volumes BlueXP a été renommée mise en cache de volumes.
 
 Vous pouvez y accéder à partir de la barre de navigation de gauche de la NetApp Console en sélectionnant *Mobilité* > *Mise en cache des volumes*.
 

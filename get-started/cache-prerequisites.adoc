@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-prerequisites.html 
-keywords: what are volume caching requirements, volume caching prerequisites 
-summary: Commencez à utiliser la mise en cache de volume en vérifiant la prise en charge de votre environnement, votre accès réseau, votre connexion et votre navigateur Web. 
+keywords: what are Volume Caching requirements, Volume Caching prerequisites 
+summary: Pour commencer à utiliser la mise en cache de volumes, vérifiez sa compatibilité avec votre environnement, votre accès réseau, votre identifiant et votre navigateur Web. 
 ---
 = Conditions préalables à la mise en cache des volumes
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Commencez à utiliser la mise en cache de volume en vérifiant la prise
 [role="lead"]
 Commencez par vérifier l’état de préparation de votre environnement opérationnel, de votre connexion, de votre accès réseau et de votre navigateur Web.
 
-Pour utiliser la mise en cache de volume, vous devez vous assurer que votre environnement répond à toutes les exigences.
+Pour utiliser la mise en cache volumétrique, vous devez vous assurer que votre environnement répond à toutes les exigences.
 
 * ONTAP 9.8 et versions ultérieures
 +

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-intro.html 
-keywords: how volume caching works, what is volume caching, bluexp 
-summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
+keywords: how Volume Caching works, what is Volume Caching, bluexp 
+summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache des volumes pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
 ---
-= En savoir plus sur la mise en cache des volumes
+= Découvrez la mise en cache volumétrique
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -14,7 +14,7 @@ summary: La mise en cache de volume fournit un volume persistant et inscriptible
 [role="lead"]
 La mise en cache de volume, une fonctionnalité du logiciel ONTAP 9, est une capacité de mise en cache à distance qui simplifie la distribution de fichiers, réduit la latence WAN en rapprochant les ressources de l'endroit où se trouvent vos utilisateurs et vos ressources de calcul, et réduit les coûts de bande passante WAN. La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant.  Vous pouvez utiliser la mise en cache de volume pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.
 
-Avec la mise en cache de volume, vous disposez de capacités de mise en cache pour le cloud, en particulier pour Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP et sur site comme environnements de travail.
+Avec Volume Caching, vous disposez de capacités de mise en cache pour le cloud, en particulier pour Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP et les environnements de travail sur site.
 
 La mise en cache des volumes permet également aux succursales d'accéder aux ensembles de données de l'entreprise.  En diffusant des _données chaudes_, des données auxquelles il faut accéder fréquemment à partir de plusieurs contrôleurs d'un cluster, vous pouvez augmenter les performances fournies aux applications clés.  De plus, en mettant en cache les données sensibles locales pour les utilisateurs situés à plusieurs endroits dans le monde, vous pouvez améliorer leur collaboration en permettant un accès simultané à des ensembles de données centralisés tout en réduisant le temps de réponse qu'ils reçoivent lors de l'accès aux données sensibles.
 
@@ -38,7 +38,7 @@ Un cache est un emplacement de stockage temporaire qui réside entre un hôte et
 
 
 
-== Avantages de la mise en cache des volumes
+== Avantages de la mise en cache volumétrique
 
 La mise en cache des volumes offre les avantages suivants :
 
@@ -47,12 +47,12 @@ La mise en cache des volumes offre les avantages suivants :
 * Des coûts de stockage réduits
 * Collaborer à travers des emplacements géographiques
 * Capacité à s'adapter plus rapidement aux environnements informatiques changeants
-* Mise en cache de volume à la demande ou par abonnement hébergée dans le cloud
+* Mise en cache volumétrique à la demande ou par abonnement hébergée dans le cloud
 
 
 
 
-== Ce que vous pouvez faire avec la mise en cache des volumes
+== Que pouvez-vous faire avec la mise en cache volumétrique ?
 
 La mise en cache des volumes vous permet d'utiliser pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :
 
@@ -66,20 +66,20 @@ La mise en cache des volumes vous permet d'utiliser pleinement plusieurs technol
 
 == Coût
 
-NetApp ne vous facture pas la mise en cache des volumes, mais vous devrez vérifier auprès de votre fournisseur de cloud les frais d'entrée et de sortie de données applicables.
+NetApp ne facture pas la mise en cache des volumes, mais vous devrez vérifier auprès de votre fournisseur de cloud les frais applicables en matière d'entrée et de sortie de données.
 
 
 
 == Licences
 
-Aucune licence ONTAP spéciale n'est nécessaire pour la mise en cache des volumes.
+Aucune licence ONTAP spéciale n'est requise pour la mise en cache de volumes.
 
 
 
-== Comment fonctionne la mise en cache des volumes
+== Comment fonctionne la mise en cache volumétrique ?
 
 Un volume de cache est un volume peu peuplé qui est sauvegardé par un volume source.  Le volume de cache peut se trouver sur le même cluster ou sur un cluster différent de celui du volume source.
 
 Le volume de cache permet d'accéder aux données du volume source sans nécessiter que toutes les données se trouvent dans le volume de cache.  Le stockage des données dans le volume de mise en cache est géré efficacement en conservant uniquement les données chaudes (données de travail ou récemment utilisées).
 
-La mise en cache du volume lit les requêtes si le volume de cache contient les données demandées par le client.  Dans le cas contraire, le service de mise en cache du volume demande les données du volume source et stocke les données avant de répondre à la demande du client.  Les demandes ultérieures de données sont ensuite traitées directement à partir du volume de cache.  Cela améliore les performances lorsque les mêmes données sont consultées de manière répétée, car après la première demande, les données n'ont plus besoin de transiter par le réseau ni d'être servies par un système surchargé.
+La mise en cache des volumes traite les requêtes si le volume de cache contient les données demandées par le client. Sinon, le service de mise en cache des volumes demande les données au volume source et les stocke avant de répondre à la requête du client. Les requêtes de données suivantes sont alors traitées directement à partir du volume cache. Cela améliore les performances lorsque les mêmes données sont consultées de manière répétée, car après la première requête, les données n'ont plus besoin de transiter par le réseau ni d'être servies par un système surchargé.

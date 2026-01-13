@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-quick-start.html 
-keywords: how to get started with volume caching, volume caching quick start 
-summary: Commencez à utiliser la mise en cache de volumes en quelques étapes. 
+keywords: how to get started with Volume Caching, Volume Caching quick start 
+summary: Découvrez la mise en cache volumétrique en quelques étapes. 
 ---
-= Démarrage rapide pour la mise en cache des volumes
+= Démarrage rapide pour la mise en cache volumétrique
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,13 +12,13 @@ summary: Commencez à utiliser la mise en cache de volumes en quelques étapes.
 
 
 [role="lead"]
-Voici un aperçu des étapes nécessaires pour démarrer avec la mise en cache de volumes. Les liens à l’intérieur de chaque étape vous mènent à une page qui fournit plus de détails.
+Voici un aperçu des étapes nécessaires pour démarrer avec la mise en cache de volumes. Les liens présents à chaque étape vous mènent vers une page contenant plus de détails.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Un"]Réviser les prérequis
 [role="quick-margin-para"]
 link:../get-started/cache-prerequisites.html["Assurez-vous que votre environnement répond à ces exigences"] .
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"]Configurer la mise en cache du volume
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Deux"] Configurer la mise en cache des volumes
 [role="quick-margin-para"]
 link:../get-started/cache-setup.html["Configurer la mise en cache de volume"] .
 
@@ -29,5 +29,5 @@ Voici ce que vous pourriez faire ensuite.
 [role="quick-margin-list"]
 * link:../use/cache-create.html["Créer un cache"] .
 * link:../use/cache-use-overview.html["Gérer un cache, modifier un cache, redimensionner un cache ou supprimer un cache"] .
-* link:../use/monitor-jobs.html["Surveiller les opérations de mise en cache des volumes"] .
+* link:../use/monitor-jobs.html["Opérations de mise en cache des volumes de surveillance"].
 

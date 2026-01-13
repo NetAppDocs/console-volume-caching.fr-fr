@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-setup.html 
-keywords: bluexp, volume caching, 
-summary: Pour utiliser la mise en cache de volume, effectuez quelques étapes pour la configurer. 
+keywords: bluexp, Volume Caching, 
+summary: Pour utiliser la mise en cache volumétrique, suivez ces quelques étapes de configuration. 
 ---
-= Configurer la mise en cache du volume
+= Configurer la mise en cache des volumes
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: Pour utiliser la mise en cache de volume, effectuez quelques étapes po
 
 
 [role="lead"]
-Pour utiliser la mise en cache de volume, effectuez quelques étapes pour la configurer.
+Pour utiliser la mise en cache volumétrique, suivez ces quelques étapes de configuration.
 
 * Revoirlink:../get-started/cache-prerequisites.html["prérequis"] pour garantir que votre environnement est prêt.
 * Créer un agent de console.
@@ -25,7 +25,7 @@ Pour utiliser la mise en cache de volume, effectuez quelques étapes pour la con
 
 L’étape suivante consiste à créer un agent de console dans la NetApp Console.
 
-Pour créer un agent de console avant d’utiliser la mise en cache de volume, reportez-vous à la documentation de la NetApp Console qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Comment créer un agent de console"^] .
+Pour créer un agent de console avant d'utiliser la mise en cache de volumes, reportez-vous à la documentation de la NetApp Console qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Comment créer un agent de console"^].
 
 
 

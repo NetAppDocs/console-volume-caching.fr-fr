@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: get-started/cache-login.html 
-keywords: bluexp login, volume caching log in 
+keywords: bluexp login, Volume Caching log in 
 summary: Commencez à utiliser la mise en cache des volumes en accédant au service dans la NetApp Console. 
 ---
-= Mise en cache du volume d'accès
+= Accès au volume de mise en cache
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -12,7 +12,7 @@ summary: Commencez à utiliser la mise en cache des volumes en accédant au serv
 
 
 [role="lead"]
-Vous utilisez la NetApp Console pour accéder à l’option de mise en cache du volume.
+Vous utilisez la NetApp Console pour accéder à l'option de mise en cache des volumes.
 
 Pour vous connecter à la NetApp Console, vous pouvez utiliser vos informations d'identification du site de support NetApp . https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["En savoir plus sur la connexion"^] .
 
@@ -24,10 +24,10 @@ La page de connexion à la NetApp Console s’affiche.
 . Connectez-vous à la console.
 . Dans la navigation de gauche de la console, sélectionnez *Mobilité* > *Mise en cache du volume*.
 +
-Le tableau de bord de mise en cache du volume apparaît.image:landing-page.png["image de la page de destination pour la mise en cache des volumes"]
+Le tableau de bord de mise en cache des volumes s'affiche. image:landing-page.png["image de la page de destination pour la mise en cache des volumes"]
 
 +
 
-NOTE: Si aucun agent de console n'est configuré, l'option *Ajouter un agent de console* apparaît. link:../get-started/cache-setup.html["Configurer la mise en cache du volume"] .
+NOTE: Si aucun agent de console n'est configuré, l'option *Ajouter un agent de console* apparaît. Se référer àlink:../get-started/cache-setup.html["Configurer la mise en cache des volumes"] .
 
 
