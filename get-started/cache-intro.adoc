@@ -20,6 +20,7 @@ La mise en cache des volumes permet également aux succursales d'accéder aux en
 
 
 
+[[netapp-console]]
 == NetApp Console
 
 La mise en cache des volumes est accessible via la NetApp Console.
@@ -28,16 +29,18 @@ La NetApp Console fournit une gestion centralisée des services de stockage et d
 
 Vous n'avez pas besoin de licence ni d'abonnement pour commencer à utiliser NetApp Console et vous n'encourez des frais que lorsque vous devez déployer des agents de console dans votre cloud pour garantir la connectivité à vos systèmes de stockage ou à vos services de données NetApp . Cependant, certains services de données NetApp accessibles depuis la console sont sous licence ou basés sur un abonnement.
 
-En savoir plus sur le https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
+Apprenez-en davantage sur le link:https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"].
 
 
 
+[[what-is-a-cache]]
 == Qu'est-ce qu'un cache ?
 
 Un cache est un emplacement de stockage temporaire qui réside entre un hôte et la source de données.  L'objectif d'un cache est de stocker les parties fréquemment consultées des données sources d'une manière qui permet aux données d'être servies plus rapidement qu'elles ne le seraient en récupérant les données à partir de la source.  Les caches sont particulièrement utiles dans les environnements à lecture intensive où les données sont consultées plusieurs fois et partagées par plusieurs hôtes.  Un système de cache est plus rapide que le système avec source de données, ce qui est obtenu grâce à un système de stockage plus rapide et à la proximité de l'espace de stockage du cache avec l'hôte.
 
 
 
+[[benefits-of-volume-caching]]
 == Avantages de la mise en cache volumétrique
 
 La mise en cache des volumes offre les avantages suivants :
@@ -52,6 +55,7 @@ La mise en cache des volumes offre les avantages suivants :
 
 
 
+[[what-you-can-do-with-volume-caching]]
 == Que pouvez-vous faire avec la mise en cache volumétrique ?
 
 La mise en cache des volumes vous permet d'utiliser pleinement plusieurs technologies NetApp pour atteindre les objectifs suivants :
@@ -64,18 +68,21 @@ La mise en cache des volumes vous permet d'utiliser pleinement plusieurs technol
 
 
 
+[[cost]]
 == Coût
 
 NetApp ne facture pas la mise en cache des volumes, mais vous devrez vérifier auprès de votre fournisseur de cloud les frais applicables en matière d'entrée et de sortie de données.
 
 
 
+[[licensing]]
 == Licences
 
 Aucune licence ONTAP spéciale n'est requise pour la mise en cache de volumes.
 
 
 
+[[how-volume-caching-works]]
 == Comment fonctionne la mise en cache volumétrique ?
 
 Un volume de cache est un volume peu peuplé qui est sauvegardé par un volume source.  Le volume de cache peut se trouver sur le même cluster ou sur un cluster différent de celui du volume source.

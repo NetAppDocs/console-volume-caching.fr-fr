@@ -4,6 +4,7 @@
 
 
 
+[[bluexp-volume-caching]]
 === Mise en cache volumétrique BlueXP
 
 BlueXP Volume Caching, une fonctionnalité du logiciel ONTAP 9, est une capacité de mise en cache à distance qui simplifie la distribution des fichiers, réduit la latence WAN en rapprochant les ressources de l'endroit où se trouvent vos utilisateurs et vos ressources de calcul, et diminue les coûts de bande passante WAN. La mise en cache de volumes fournit un volume persistant et accessible en écriture dans un emplacement distant. Vous pouvez utiliser la mise en cache de volumes BlueXP pour accélérer l'accès aux données ou pour décharger le trafic des volumes fréquemment utilisés. Les volumes de cache sont idéaux pour les charges de travail à forte intensité de lecture, notamment lorsque les clients ont besoin d'accéder aux mêmes données de manière répétée.

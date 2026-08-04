@@ -14,7 +14,7 @@ summary: Cette FAQ peut vous aider si vous cherchez simplement une réponse rapi
 [role="lead"]
 Cette FAQ peut vous aider si vous cherchez simplement une réponse rapide à une question.
 
-*Quelle est l'URL de mise en cache des volumes ?* Pour l'URL, dans un navigateur, saisissez : https://console.netapp.com/["https://console.netapp.com/"^] pour accéder à la console BlueXP .
+*Quelle est l'URL de mise en cache des volumes ?* Pour l'URL, dans un navigateur, saisissez : https://console.netapp.com/["https://console.netapp.com/"^] pour accéder à la NetApp Console.
 
 *Avez-vous besoin d'une licence pour utiliser la mise en cache volumétrique ?* Un fichier de licence NetApp (NLF) n'est pas requis.
 

@@ -21,14 +21,16 @@ Pour utiliser la mise en cache volumétrique, suivez ces quelques étapes de con
 
 
 
+[[create-a-console-agent-in-the-netapp-console]]
 == Créer un agent de console dans la NetApp Console
 
 L’étape suivante consiste à créer un agent de console dans la NetApp Console.
 
-Pour créer un agent de console avant d'utiliser la mise en cache de volumes, reportez-vous à la documentation de la NetApp Console qui décrit https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html#how-to-create-a-connector["Comment créer un agent de console"^].
+Pour créer un agent de Console avant d'utiliser la mise en cache de volume, reportez-vous à la documentation NetApp Console pour link:https://docs.netapp.com/us-en/console-setup-admin/concept-agents.html#what-a-console-agent-does["Agents de console"^].
 
 
 
+[[create-systems]]
 == Créer des systèmes
 
 Si vous ne l’avez pas déjà fait, vous devez créer les systèmes pour la source et la cible.

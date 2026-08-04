@@ -28,6 +28,7 @@ Le nom du volume mis en cache utilise un suffixe de `pass:macros[_cache]` ajout�
 
 
 
+[[steps-from-the-volume-caching-landing-page]]
 == Étapes depuis la page d'accueil de la mise en cache volumétrique
 
 . Connectez-vous à la NetApp Console.
@@ -72,6 +73,7 @@ Le nouveau cache apparaît dans la liste de mise en cache.  Le nom du volume de 
 
 
 
+[[steps-from-the-netapp-console-systems-page]]
 == Étapes à suivre depuis la page Systèmes de la NetApp Console
 
 . À partir de la page Systèmes de NetApp Console , sélectionnez l’environnement de travail.

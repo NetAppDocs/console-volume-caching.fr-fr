@@ -25,6 +25,7 @@ Grâce à la mise en cache volumétrique, vous pouvez atteindre les objectifs su
 
 
 
+[[view-cache-details]]
 == Afficher les détails du cache
 
 Pour chaque mise en cache, vous pouvez voir le volume d'origine, l'environnement de travail, le volume de cache, etc.
@@ -42,6 +43,7 @@ Vous pouvez afficher la liste des volumes de cache créés sur le système de de
 
 
 
+[[edit-a-cache]]
 == Modifier un cache
 
 Vous pouvez modifier le nom, la taille du volume et la politique d'exportation d'un cache.
@@ -63,6 +65,7 @@ Vous pouvez modifier le nom, la taille du volume et la politique d'exportation d
 
 
 
+[[assign-a-different-cache-export-policy]]
 == Attribuer une politique d'exportation de cache différente
 
 Vous pouvez attribuer une politique d’exportation différente à un cache.
@@ -82,6 +85,7 @@ TIP: Vous pouvez attribuer une politique d’exportation existante à un cache. 
 
 
 
+[[resize-a-cache]]
 == Redimensionner un cache
 
 Vous pouvez modifier la taille du volume de cache en fonction d'un pourcentage du volume source.
@@ -99,6 +103,7 @@ Le volume du cache sera redimensionné selon le nouveau pourcentage.
 
 
 
+[[delete-a-cache]]
 == Supprimer un cache
 
 Si vous n'avez plus besoin du cache, vous pouvez le supprimer. Cela supprime la relation de mise en cache des volumes et supprime le cache du volume cible.

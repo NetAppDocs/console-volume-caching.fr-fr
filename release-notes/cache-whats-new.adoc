@@ -16,10 +16,12 @@ Découvrez les nouveautés en matière de mise en cache volumétrique.
 
 
 
+[[06-october-2025]]
 == 06 octobre 2025
 
 
 
+[[bluexp-volume-caching-is-now-volume-caching]]
 === La mise en cache de volume BlueXP est désormais une mise en cache de volume.
 
 La mise en cache de volumes BlueXP a été renommée mise en cache de volumes.
@@ -28,6 +30,7 @@ Vous pouvez y accéder à partir de la barre de navigation de gauche de la NetAp
 
 
 
+[[bluexp-is-now-netapp-console]]
 === BlueXP est désormais NetApp Console
 
 La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
@@ -36,10 +39,12 @@ Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp
 
 
 
+[[04-june-2023]]
 == 4 juin 2023
 
 
 
+[[bluexp-volume-caching]]
 === Mise en cache volumétrique BlueXP
 
 BlueXP Volume Caching, une fonctionnalité du logiciel ONTAP 9, est une capacité de mise en cache à distance qui simplifie la distribution des fichiers, réduit la latence WAN en rapprochant les ressources de l'endroit où se trouvent vos utilisateurs et vos ressources de calcul, et diminue les coûts de bande passante WAN. La mise en cache de volumes fournit un volume persistant et accessible en écriture dans un emplacement distant. Vous pouvez utiliser la mise en cache de volumes BlueXP pour accélérer l'accès aux données ou pour décharger le trafic des volumes fréquemment utilisés. Les volumes de cache sont idéaux pour les charges de travail à forte intensité de lecture, notamment lorsque les clients ont besoin d'accéder aux mêmes données de manière répétée.
