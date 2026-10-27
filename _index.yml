@@ -24,8 +24,6 @@ indexpage:
       url: "/get-started/cache-faq.html"
   - title: Utiliser la mise en cache volumétrique
     links:
-    - title: Aperçu de la mise en cache du volume
-      url: "/use/cache-use-overview.html"
     - title: Créer un cache
       url: "/use/cache-create.html"
     - title: Gérer un cache

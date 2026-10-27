@@ -2,8 +2,6 @@
 section: use
 title: Utiliser la mise en cache volumétrique
 entries:
-- title: Aperçu de la mise en cache volumétrique
-  url: "/use/cache-use-overview.html"
 - title: Créer un cache
   url: "/use/cache-create.html"
 - title: Gérer un cache

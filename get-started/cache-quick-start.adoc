@@ -4,7 +4,7 @@ permalink: get-started/cache-quick-start.html
 keywords: how to get started with Volume Caching, Volume Caching quick start 
 summary: Découvrez la mise en cache volumétrique en quelques étapes. 
 ---
-= Démarrage rapide pour la mise en cache volumétrique
+= Démarrage rapide pour NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -28,6 +28,6 @@ Voici ce que vous pourriez faire ensuite.
 
 [role="quick-margin-list"]
 * link:../use/cache-create.html["Créer un cache"] .
-* link:../use/cache-use-overview.html["Gérer un cache, modifier un cache, redimensionner un cache ou supprimer un cache"] .
+* link:../use/cache-manage.html["Gérer un cache"].
 * link:../use/monitor-jobs.html["Opérations de mise en cache des volumes de surveillance"].
 

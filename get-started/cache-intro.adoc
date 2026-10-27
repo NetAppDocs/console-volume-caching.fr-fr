@@ -4,7 +4,7 @@ permalink: get-started/cache-intro.html
 keywords: how Volume Caching works, what is Volume Caching, bluexp 
 summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache des volumes pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
 ---
-= Découvrez la mise en cache volumétrique
+= Découvrez NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

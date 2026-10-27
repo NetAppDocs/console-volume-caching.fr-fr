@@ -4,7 +4,7 @@ permalink: use/monitor-jobs.html
 keywords: Volume Caching, NetApp Volume caching 
 summary: La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la mise en cache des volumes NetApp pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement sollicités. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée. 
 ---
-= Surveillez les tâches de mise en cache du volume sur la page d'audit
+= Surveillez les tâches NetApp Volume Caching sur la page Audit
 :hardbreaks:
 :allow-uri-read: 
 :icons: font

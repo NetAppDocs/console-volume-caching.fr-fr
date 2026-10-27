@@ -4,7 +4,7 @@ permalink: support/task-support-registration.html
 keywords: support registration, register for support, support, nss account, add nss account 
 summary: Avant de pouvoir ouvrir un ticket d’assistance auprès du support technique NetApp, vous devez ajouter un compte NetApp Support Site à la Console, puis vous inscrire pour bénéficier du support. 
 ---
-= Inscrivez-vous pour obtenir de l'aide
+= Inscrivez-vous pour bénéficier de la prise en charge de NetApp Volume Caching
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

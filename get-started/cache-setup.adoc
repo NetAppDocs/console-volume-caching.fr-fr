@@ -4,7 +4,7 @@ permalink: get-started/cache-setup.html
 keywords: bluexp, Volume Caching, 
 summary: Pour utiliser la mise en cache volumétrique, suivez ces quelques étapes de configuration. 
 ---
-= Configurer la mise en cache des volumes
+= Configurer NetApp Volume Caching
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
